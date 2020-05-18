@@ -1,0 +1,87 @@
+*, *:before, *:after {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #2E323F;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.nav__list {
+    padding: 0;
+}
+
+.nav__item {
+    padding: 0.25em 0;
+}
+
+.nav__link {
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    width: 3em;
+    height: 3em;
+    border: 0;
+    border-radius: 50%;
+    background: white;
+    color: #2E323F;
+
+    position: absolute;
+    right: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .75;
+}
+
+.hamburger {
+    width: 50%;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: #2E323F;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}

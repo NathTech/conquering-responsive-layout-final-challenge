@@ -1,0 +1,28 @@
+{
+  "name": "conquering-responsive-layout-final-challenge",
+  "version": "1.0.0",
+  "description": "Code for the final challenge of [https://courses.kevinpowell.co/courses/conquering-responsive-layouts](Conquering responsive layouts).",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathTech/conquering-responsive-layout-final-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathTech/conquering-responsive-layout-final-challenge/issues"
+  },
+  "homepage": "https://github.com/NathTech/conquering-responsive-layout-final-challenge#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-util": "^3.0.8"
+  }
+}
