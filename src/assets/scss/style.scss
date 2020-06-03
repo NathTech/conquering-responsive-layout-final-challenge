@@ -44,10 +44,15 @@ body {
 
 ul {
     list-style: none;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 h1 {
@@ -67,8 +72,15 @@ h2 {
     color: $brand-secondary;
 }
 
+h3 {
+    font-size: 2.1rem;
+    color: $brand-secondary;
+    font-family: $font-headline;
+}
+
 p {
     color: $brand-primary;
+    line-height: 1.5em;
 }
 
 .button {
@@ -179,7 +191,6 @@ header {
     p {
         color: $white;
         font-size: 2.4rem;
-        line-height: 1.5em;
     }
 
     .button {
@@ -191,7 +202,6 @@ header {
 .strip {
     background-color: $grey-light;
     padding: 4em 0;
-
 }
 
 .strip__text {
@@ -203,3 +213,54 @@ header {
     }
 }
 
+.main {
+    padding: 2em 0;
+}
+
+.content {
+
+    h2 {
+        font-size: 3.6rem;
+    }
+
+    p {
+        font-size: 2.1rem;
+    }
+}
+
+.sidebar__card {
+    background-color: $brand-primary;
+    text-align: center;
+    padding: 1em;
+    margin: 2em 0;
+
+    h2, p {
+        color: $white;
+    }
+
+}
+
+footer {
+    background-color: $brand-primary;
+    padding: 4em 0;
+
+    h2 {
+        color: $white;
+        font-weight: 900;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    h3 {
+        color: $brand-secondary;
+    }
+
+    p, a {
+        color: $grey-light;
+        font-size: 1.6rem;
+    }
+
+    .nav__item {
+        padding: 0.5em 0;
+    }
+}
