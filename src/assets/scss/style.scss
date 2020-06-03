@@ -2,8 +2,43 @@
     box-sizing: border-box
 }
 
+/* Colour definitions */
+
+$brand-dark: #2E323F;
+$brand-primary: #3B4050;
+$brand-light: #6F737F;
+$white: #FFF;
+$brand-secondary: #A59678;
+
+/* Font families */
+$font-text: 'Montserrat', sans-serif;
+$font-headline: 'Saira Condensed', sans-serif;
+
+/* Mixins */
+
+@mixin button {
+    display: inline-block;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $brand-secondary;
+    border-radius: 100px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+
+    &:hover, &:focus {
+        opacity: .75;
+    }
+}
+
+html {
+    font-size: 10px;
+}
+
 body {
     margin: 0;
+    font-size: 1.8rem;
+    font-family: $font-text;
 }
 
 ul {
@@ -14,6 +49,31 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    margin: 0;
+    font-family: $font-headline;
+    font-size: 9rem;
+    font-weight: 900;
+    line-height: 1em;
+    color: $white;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: $brand-secondary;
+}
+
+p {
+    color: $brand-primary;
+}
+
+.button {
+    @include button;
+
+    font-family: $font-headline;
+}
+
 .container {
     margin: 0 auto;
     position: relative;
@@ -22,13 +82,16 @@ a {
 }
 
 header {
-    background-color: #2E323F;
+    background-color: $brand-dark;
     padding: 1em 0;
     text-align: center;
 }
 
 .nav {
     display: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: $font-headline;
 }
 
 .nav--visible {
@@ -46,6 +109,12 @@ header {
 .nav__link {
     color: white;
     text-transform: uppercase;
+}
+
+.nav__link--button {
+    @include button;
+
+    padding: 0.2em 1em;
 }
 
 .nav-toggle {
@@ -92,4 +161,26 @@ header {
 
 .hamburger::after {
     transform: translateY(3px);
+}
+
+.hero {
+    background-color: $brand-primary;
+    padding: 4em 0;
+}
+
+.highlight {
+    color: $brand-secondary;
+}
+
+.hero__text {
+    p {
+        color: $white;
+        font-size: 2.4rem;
+        line-height: 1.5em;
+    }
+
+    .button {
+        font-size: 2.4rem;
+        letter-spacing: 1px;
+    }
 }
