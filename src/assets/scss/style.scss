@@ -27,6 +27,14 @@ header {
     text-align: center;
 }
 
+.nav {
+    display: none;
+}
+
+.nav--visible {
+    display: block;
+}
+
 .nav__list {
     padding: 0;
 }
