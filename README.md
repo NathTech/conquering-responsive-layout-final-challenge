@@ -2,6 +2,8 @@
 
 Code for the final challenge of [Conquering responsive layouts](https://courses.kevinpowell.co/courses/conquering-responsive-layouts)
 
+[Live preview](https://nathtech.github.io/conquering-responsive-layout-final-challenge/)
+
 ## Personal goals
 
 1. To put into practice lessons learned on CRL course.
