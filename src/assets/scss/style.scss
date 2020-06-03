@@ -7,8 +7,9 @@
 $brand-dark: #2E323F;
 $brand-primary: #3B4050;
 $brand-light: #6F737F;
-$white: #FFF;
 $brand-secondary: #A59678;
+$white: #FFF;
+$grey-light: #F2F2F2;
 
 /* Font families */
 $font-text: 'Montserrat', sans-serif;
@@ -59,8 +60,10 @@ h1 {
 }
 
 h2 {
+    margin: 0;
     font-size: 3rem;
     font-weight: 600;
+    font-family: $font-headline;
     color: $brand-secondary;
 }
 
@@ -184,3 +187,19 @@ header {
         letter-spacing: 1px;
     }
 }
+
+.strip {
+    background-color: $grey-light;
+    padding: 4em 0;
+
+}
+
+.strip__text {
+    text-align: center;
+    margin-bottom: 4em;
+    
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
