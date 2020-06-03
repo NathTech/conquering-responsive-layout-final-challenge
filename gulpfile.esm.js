@@ -1,5 +1,9 @@
 'use strict'
 
+/**
+ * 
+ */
+
 import gulp from 'gulp'
 import gutil from 'gulp-util'
 import sassTranspiler from 'gulp-sass'
@@ -88,4 +92,8 @@ export const watch = gulp.series(sync, (done) => {
     gulp.watch(imagePaths.src, image)
 
     gulp.watch(scssPaths.src, sass)
+
+    done()
 })
+
+export default watch

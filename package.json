@@ -4,7 +4,8 @@
   "description": "Code for the final challenge of [https://courses.kevinpowell.co/courses/conquering-responsive-layouts](Conquering responsive layouts).",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
