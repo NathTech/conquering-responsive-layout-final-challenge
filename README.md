@@ -1,6 +1,6 @@
 # conquering-responsive-layout-final-challenge
 
-Code for the final challenge of [https://courses.kevinpowell.co/courses/conquering-responsive-layouts](Conquering responsive layouts)
+Code for the final challenge of [Conquering responsive layouts](https://courses.kevinpowell.co/courses/conquering-responsive-layouts)
 
 ## Personal goals
 
@@ -11,7 +11,7 @@ Code for the final challenge of [https://courses.kevinpowell.co/courses/conqueri
 
 ## Design Spec
 
-[Design spec]('final-challenge.pdf')
+[Design spec](https://github.com/NathTech/conquering-responsive-layout-final-challenge/blob/master/final-challenge.pdf)
 
 ## Lessons learned
 
